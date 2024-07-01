@@ -128,7 +128,7 @@ class App extends Component {
             />
 
             <div className="search-panel">
-                <SearchPanel onUpdateSearch={this.onUpdateSearch} />
+                <SearchPanel term={term} onUpdateSearch={this.onUpdateSearch} />
                 <AppFilter filter={filter} onFilterSelect={this.onFilterSelect} />
             </div>
 
